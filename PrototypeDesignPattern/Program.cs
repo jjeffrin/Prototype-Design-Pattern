@@ -41,6 +41,7 @@ namespace PrototypeDesignPattern
     {
         static void Main(string[] args)
         {
+            // Developer Class
             Console.WriteLine("Prototype Design Pattern");
             Developer dev = new Developer();
             dev.Name = "Jeffrin J";
@@ -50,6 +51,7 @@ namespace PrototypeDesignPattern
             devCopy.Role = "Web Dev";
             devCopy.GetDetails();
 
+            // Designer Class
             Designer designer = new Designer();
             designer.Name = "Pranav S";
             designer.Role = "Web Designer";
